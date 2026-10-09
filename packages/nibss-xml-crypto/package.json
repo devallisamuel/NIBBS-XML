@@ -1,0 +1,20 @@
+{
+  "name": "nibss-xml-crypto",
+  "version": "0.1.0",
+  "description": "NIBSS-compatible XML signing and encryption helpers extracted from the existing Java/NestJS implementation.",
+  "main": "index.js",
+  "type": "commonjs",
+  "private": true,
+  "keywords": [
+    "nibss",
+    "xml",
+    "xml-signature",
+    "xml-encryption",
+    "iso20022"
+  ],
+  "dependencies": {
+    "@xmldom/xmldom": "^0.9.10",
+    "xml-crypto": "^6.1.2",
+    "xpath": "^0.0.34"
+  }
+}
